@@ -4,9 +4,15 @@ A)  It is a client side JS library.
     Allows us to build modern reactive user interfaces.
     React is all about components.
     All UI is built using components
+    React components are combining HTML and JS mostly and not much of css
+
 
 We try building SPA(single page application) and then let JS and react control what is visible to user. This leads to a smoother UI.
 Here in this approach HTML page is sent only once.
 For routing in react  we will need to use third party libraries.
 Q)Why components?
 It allows reusability and sepration of concern.
+
+Q) What is declerative way of programming
+A) We do not give instructions each and every time as to how it should look rather we give them all the instructions once and all then let react configure how to make things work out.
+
