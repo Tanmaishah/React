@@ -1,0 +1,34 @@
+use let and const over var.
+let is used if value changes and const if value remains same.
+
+arrow functions
+example 1
+const function1=function(name){
+    console.log(name)
+
+}
+
+this can be done if only one parameter is passed.
+const printmyname=name=>{ 
+    console.log(name)
+}
+this can be done if only one statment is to be executed in function.
+const printmyname=name=>    console.log(name)
+
+
+export and import 
+see images also
+consider this as person.JS
+
+const person={
+    name:'Max'
+}
+epxort  default person
+
+if we use default export then when we import we can use any name to reference 
+Eg: import prs from './person.js'
+
+otherwise we need to do this
+import {smt as Smth} from './utility.js'
+or 
+import * as bundeled from './utility.js'
