@@ -13,6 +13,7 @@ For routing in react  we will need to use third party libraries.
 Q)Why components?
 It allows reusability and sepration of concern.
 It is just a JS function which returns HTML.
+it can return only one html componenet so that is why we put everything in DIV. 
 
 Q) What is declerative way of programming
 A) We do not give instructions each and every time as to how it should look rather we give them all the instructions once and all then let react configure how to make things work out.
