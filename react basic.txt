@@ -23,3 +23,4 @@ In public folder, we have a div with id root which is called by getElementById i
 
 JSX(JS XML) : Using this we can return HTML code in components, which isn't allowed in regular JS.
 
+we can run some basic JS in componenets by writing them within {}
