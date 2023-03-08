@@ -1,4 +1,5 @@
-import Expenseitem from "./components/expenseitem";
+import Expenseitem from "./components/expenses/expenseitem";
+import Expenses from "./components/expenses/Expenses"
 function App() {
   const expenses = [
     {
@@ -24,7 +25,7 @@ function App() {
   return (
     <div>
       <h2>Let's get started!</h2>
-      <Expenseitem 
+      {/* <Expenseitem 
       title={expenses[0].title}
        price={expenses[0].amount} 
        date={expenses[0].date}/>  
@@ -37,7 +38,8 @@ function App() {
        date={expenses[2].date}/> 
       <Expenseitem title={expenses[3].title}
        price={expenses[3].amount} 
-       date={expenses[3].date}/> 
+       date={expenses[3].date}/>  */}
+       <Expenses list={expenses} />
     </div>
   );
 }
