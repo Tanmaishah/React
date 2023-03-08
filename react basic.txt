@@ -17,6 +17,7 @@ it can return only one html componenet so that is why we put everything in DIV.
 
 Q) What is declerative way of programming
 A) We do not give instructions each and every time as to how it should look rather we give them all the instructions once and all then let react configure how to make things work out.
+In short declerative means telling the target state and let React configure actual DOM instructions.
 
 Index.js is the first file that will be executed
 In public folder, we have a div with id root which is called by getElementById in index.js
