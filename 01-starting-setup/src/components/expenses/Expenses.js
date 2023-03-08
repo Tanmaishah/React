@@ -1,11 +1,9 @@
 import "./Expenses.css"
-import Expenseitem from "./expenseitem"
+import Expenseitem from "./Expenseitem"
 import Card from "../UI/Card.js"
 function Expenses(props){
     return(
-
         <div className="expenses">
-
     <Expenseitem 
       title={props.list[0].title}
       price={props.list[0].amount} 
