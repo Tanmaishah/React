@@ -1,4 +1,5 @@
 import Expenseitem from "./components/expenses/Expenseitem";
+import NewExpense from "./components/newExpenses/newExpense"
 import Expenses from "./components/expenses/Expenses"
 function App() {
   const expenses = [
@@ -39,6 +40,7 @@ function App() {
       <Expenseitem title={expenses[3].title}
        price={expenses[3].amount} 
        date={expenses[3].date}/>  */}
+       <NewExpense />
        <Expenses list={expenses} />
     </div>
   );

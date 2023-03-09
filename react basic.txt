@@ -37,3 +37,7 @@ Q) Why dowe need state
 It is because sometimes we need to change data which is aldready loaded and inside a componenet ,but just because the variable value changed it dosent mean that the componenet will be reloaded. So it will still be displaying the value which was held by the variable before.
 So we can use states.We use 'UseState()' which is areact hook.
 They should be called inside a componenet not nested in a function and not outside any component. 
+
+Q)how useState works?
+A)If a useState is created for a variable inside a componenet then it creates a new State  each time the componenet is created
+Eg: if we use useState for a variable(say title) in expenseitem(which is a componenet) and it is created 4 times in App then it will create 4 new State, each for a componenet. 
